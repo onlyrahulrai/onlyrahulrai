@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.cards {
+  width: 100%;
+  columns: 356px 10;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #E9E8E6 !important;
+  border-radius: 50%;
+}
+
+.carousel-caption {
+  background: rgba(57, 57, 57, 0.5);
+}
+
+.modal-backdrop  {
+  opacity: 0.9 !important;
+}
+
+.portfolio-wrap {
+  background: transparent !important;
+}

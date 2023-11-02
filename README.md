@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+<h1 align="center">Hi 👋, I'm Rahul Rai</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=rahul6975&label=Profile%20views&color=0e75b6&style=flat" alt="rahul6975" /> </p>
 
-In the project directory, you can run:
+<img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/odmqozPudZor6yF3VK/giphy.gif">
 
-### `npm start`
+<hr />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🌱 I’m skilled in Fullstack Development
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 👨‍💻 All of my projects are available at [Portfolio](https://rahulraifzb.github.io/#/)
 
-### `npm test`
+- 📝 I also write articles on [Medium](https://rahulrockin.medium.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 💬 Ask me about **Python, Django, Javascript, React, React Native, Data Structure and Algorithms**
 
-### `npm run build`
+- 📫 How to reach me **rahulraifzb@gmail.com**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 📄 Know about my experiences [here](https://drive.google.com/file/d/1Dn5QJa4hQeOA1gyShvzw4RY6-9t6BIV4/view)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<hr />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=rahulraifzb&label=Profile%20views&color=0e75b6&style=flat" alt="rahulraifzb" /> </p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rahulraifzb" alt="rahulraifzb" /></a> </p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="left"> <a href="https://twitter.com/rahulraifzb" target="blank"><img src="https://img.shields.io/twitter/follow/rahulraifzb?logo=twitter&style=for-the-badge" alt="rahulraifzb" /></a> </p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 👨🏻‍💻 Coding Profiles
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=black)](https://leetcode.com/rahulraifzb/)
+[![GeeksForGeeks](https://img.shields.io/badge/-GeeksForGeeks-05CC47?style=flat-square&logo=GeeksForGeeks&logoColor=black)](https://auth.geeksforgeeks.org/user/rahulraifzb)
+[![HackerRank](https://img.shields.io/badge/-HackerRank-2EC866?style=flat-square&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/rahulraifzb)
+[![CodeChef](https://img.shields.io/badge/-CodeChef-5B4638?style=flat-square&logo=CodeChef&logoColor=white)](https://www.codechef.com/users/rahulraifzb)
 
-## Learn More
+## ⚡ Technologies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Language
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Java](https://img.shields.io/badge/-java-E34A86?style=flat-square&logo=java)
+![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
+![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
 
-### Code Splitting
+### Libraries & Framework
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)](https://reactjs.org/)
+[![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap)](https://getbootstrap.com/)
+[![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)](https://nodejs.org/)<!-- ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white) -->
+[![Numpy](https://img.shields.io/badge/Numpy%20-%23013243.svg?logo=numpy&style=flat-square&logoColor=white)](https://numpy.org/)
 
-### Analyzing the Bundle Size
+### Tools:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?logo=github&style=flat-square&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code)
+![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipse&logoColor=white)
+![Netlify](https://img.shields.io/badge/-Netlify-%2300C7B7?style=flat-square&logo=netlify&logoColor=ffffff)
+![Heroku](https://img.shields.io/badge/Heroku%20-%23430098.svg?style=flat-square&logo=heroku&logoColor=white)
 
-### Making a Progressive Web App
+## 📈 Stats
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<table>
+<tr>
+<td>
+<img src="https://github-readme-stats.vercel.app/api?username=rahulraifzb&include_all_commits=true&count_private=true&show_icons=true&line_height=20&theme=tokyonight"/>
+<td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=rahulraifzb&show_icons=true&locale=en&layout=compact&theme=tokyonight" />
+</td>
+</tr>
+</table>
+<p align="center">
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rahulraifzb&theme=tokyonight" />
+</p>
 
-### Advanced Configuration
+<img alt="Sheelu kumar's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=rahulraifzb&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Connect with Me
+[![Email Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rrai06125@gmail.com)](mailto:rrai06125@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rahulraifzb/)](https://www.linkedin.com/in/rahulraifzb/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/rahulraifzb)
+[![Telegram](https://img.shields.io/badge/-Telegram-blue?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/rahulraifzb)
+[![Discord](https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=discord&logoColor=white)](https://discordapp.com/users/745686149359599707)
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-purple?style=flat-square&logo=instagram&logoColor=white&link=https://instagram.com/rahulraifzb/)](https://instagram.com/rahulraifzb)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### &nbsp;&nbsp; Thank you for visiting my profile.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐️ From [Rahul Rai](https://github.com/rahulraifzb)
