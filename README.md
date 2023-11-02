@@ -77,7 +77,9 @@
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=onlyrahulrai&theme=tokyonight" />
 </p>
 
-<img alt="Rahul Rai Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=onlyrahulrai&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
+<!-- <img alt="Rahul Rai Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=onlyrahulrai&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /> -->
+
+[![Rahul Rai github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=onlyrahulrai&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/onlyrahulrai/github-readme-activity-graph)
 
 ## Connect with Me
 [![Email Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rrai06125@gmail.com)](mailto:rrai06125@gmail.com)
