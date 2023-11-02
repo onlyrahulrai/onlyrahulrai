@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Rahul Rai</h1>
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rahul6975&label=Profile%20views&color=0e75b6&style=flat" alt="rahul6975" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=onlyrahulrai&label=Profile%20views&color=0e75b6&style=flat" alt="rahul6975" /> </p>
 
 <img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/odmqozPudZor6yF3VK/giphy.gif">
 
@@ -9,31 +9,31 @@
 
 - 🌱 I’m skilled in Fullstack Development
 
-- 👨‍💻 All of my projects are available at [Portfolio](https://rahulraifzb.github.io/#/)
+- 👨‍💻 All of my projects are available at [Portfolio](https://onlyrahulrai.vercel.app/#/)
 
-- 📝 I also write articles on [Medium](https://rahulrockin.medium.com)
+- 📝 I also write articles on [Medium](https://onlyrahulrai.medium.com)
 
 - 💬 Ask me about **Python, Django, Javascript, React, React Native, Data Structure and Algorithms**
 
-- 📫 How to reach me **rahulraifzb@gmail.com**
+- 📫 How to reach me **rahulrai224133@gmail.com**
 
-- 📄 Know about my experiences [here](https://drive.google.com/file/d/1Dn5QJa4hQeOA1gyShvzw4RY6-9t6BIV4/view)
+- 📄 Know about my experiences [here](https://onlyrahulrai.vercel.app)
 
 <hr />
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rahulraifzb&label=Profile%20views&color=0e75b6&style=flat" alt="rahulraifzb" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=onlyrahulrai&label=Profile%20views&color=0e75b6&style=flat" alt="onlyrahulrai" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rahulraifzb" alt="rahulraifzb" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=onlyrahulrai" alt="onlyrahulrai" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/rahulraifzb" target="blank"><img src="https://img.shields.io/twitter/follow/rahulraifzb?logo=twitter&style=for-the-badge" alt="rahulraifzb" /></a> </p>
+<p align="left"> <a href="https://twitter.com/onlyrahulrai" target="blank"><img src="https://img.shields.io/twitter/follow/onlyrahulrai?logo=twitter&style=for-the-badge" alt="onlyrahulrai" /></a> </p>
 
 ## 👨🏻‍💻 Coding Profiles
 
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=black)](https://leetcode.com/rahulraifzb/)
-[![GeeksForGeeks](https://img.shields.io/badge/-GeeksForGeeks-05CC47?style=flat-square&logo=GeeksForGeeks&logoColor=black)](https://auth.geeksforgeeks.org/user/rahulraifzb)
-[![HackerRank](https://img.shields.io/badge/-HackerRank-2EC866?style=flat-square&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/rahulraifzb)
-[![CodeChef](https://img.shields.io/badge/-CodeChef-5B4638?style=flat-square&logo=CodeChef&logoColor=white)](https://www.codechef.com/users/rahulraifzb)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=black)](https://leetcode.com/onlyrahulrai/)
+[![GeeksForGeeks](https://img.shields.io/badge/-GeeksForGeeks-05CC47?style=flat-square&logo=GeeksForGeeks&logoColor=black)](https://auth.geeksforgeeks.org/user/onlyrahulrai)
+[![HackerRank](https://img.shields.io/badge/-HackerRank-2EC866?style=flat-square&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/onlyrahulrai)
+[![CodeChef](https://img.shields.io/badge/-CodeChef-5B4638?style=flat-square&logo=CodeChef&logoColor=white)](https://www.codechef.com/users/onlyrahulrai)
 
 ## ⚡ Technologies
 
@@ -68,26 +68,26 @@
 <table>
 <tr>
 <td>
-<img src="https://github-readme-stats.vercel.app/api?username=rahulraifzb&include_all_commits=true&count_private=true&show_icons=true&line_height=20&theme=tokyonight"/>
-<td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=rahulraifzb&show_icons=true&locale=en&layout=compact&theme=tokyonight" />
+<img src="https://github-readme-stats.vercel.app/api?username=onlyrahulrai&include_all_commits=true&count_private=true&show_icons=true&line_height=20&theme=tokyonight"/>
+<td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=onlyrahulrai&show_icons=true&locale=en&layout=compact&theme=tokyonight" />
 </td>
 </tr>
 </table>
 <p align="center">
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rahulraifzb&theme=tokyonight" />
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=onlyrahulrai&theme=tokyonight" />
 </p>
 
-<img alt="Sheelu kumar's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=rahulraifzb&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
+<img alt="Rahul Rai Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=onlyrahulrai&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" />
 
 ## Connect with Me
 [![Email Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rrai06125@gmail.com)](mailto:rrai06125@gmail.com)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rahulraifzb/)](https://www.linkedin.com/in/rahulraifzb/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/rahulraifzb)
-[![Telegram](https://img.shields.io/badge/-Telegram-blue?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/rahulraifzb)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/onlyrahulrai/)](https://www.linkedin.com/in/onlyrahulrai/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/onlyrahulrai)
+[![Telegram](https://img.shields.io/badge/-Telegram-blue?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/onlyrahulrai)
 [![Discord](https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=discord&logoColor=white)](https://discordapp.com/users/745686149359599707)
-[![Instagram Badge](https://img.shields.io/badge/-Instagram-purple?style=flat-square&logo=instagram&logoColor=white&link=https://instagram.com/rahulraifzb/)](https://instagram.com/rahulraifzb)
+[![Instagram Badge](https://img.shields.io/badge/-Instagram-purple?style=flat-square&logo=instagram&logoColor=white&link=https://instagram.com/onlyrahulrai/)](https://instagram.com/onlyrahulrai)
 
 
 #### &nbsp;&nbsp; Thank you for visiting my profile.
 
-⭐️ From [Rahul Rai](https://github.com/rahulraifzb)
+⭐️ From [Rahul Rai](https://github.com/onlyrahulrai)
