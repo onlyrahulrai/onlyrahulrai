@@ -9,15 +9,15 @@
 
 - 🌱 I’m skilled in Fullstack Development
 
-- 👨‍💻 All of my projects are available at [Portfolio](https://onlyrahulrai.vercel.app/#/)
+- 👨‍💻 All of my projects are available at [Portfolio](https://rahulrai.vercel.app/#/)
 
-- 📝 I also write articles on [Medium](https://onlyrahulrai.medium.com)
+- 📝 I also write articles on [Medium](https://rahulrai.medium.com)
 
 - 💬 Ask me about **Python, Django, Javascript, React, React Native, Data Structure and Algorithms**
 
 - 📫 How to reach me **rahulrai224133@gmail.com**
 
-- 📄 Know about my experiences [here](https://onlyrahulrai.vercel.app)
+- 📄 Know about my experiences [here](https://rahulrai.vercel.app)
 
 <hr />
 
