@@ -346,24 +346,69 @@ const allProjects = [
                 It is a house plant selling plateform where user's can easily purchase plants for their home. In this app I've only focused on creating and designing stunning app screen that shows the required details to users. I've added some basic pages like (Splash, Walkthrough, Welcome, Login, Register, Forgot Password, Verify OTP, Home, Categories, Category Detail, Wishlist, Orders, Product Detail, etc) screens. I've Learn a lot by creating this app.
             </p>
         </div>
-    }
-]
+    },
+    {
+        id: 13,
+        name: "Gayatri Inter College",
+        type: "Web",
+        featuredImage: "assets/img/projects/gayatri-inter-collage/1.png",
+        created: "December 25, 2022",
+        link: "https://gicdaulatpur.tech",
+        technologies: ["HTML5", "CSS3", "Javascript", "NextJS", "TailwindCSS", "React Flip Move", "Heroicons"],
+        images: ["assets/img/projects/gayatri-inter-collage/1.png", "assets/img/projects/gayatri-inter-collage/2.png", "assets/img/projects/gayatri-inter-collage/3.png"],
+        description: <div>
+            <p>
+                GAYATRI INTER COLLEGE DAULTAPUR was established in 1998 and it is managed by the Private Unaided.
+            </p>
 
-const projectDetails = {
-    id: 12,
-    name: "House Plant Hub - An Plant Selling Plateform",
-    type: "App",
-    featuredImage: "assets/img/projects/house-plant-hub/1.png",
-    created: "March 25, 2023",
-    link: null,
-    technologies: ["React Native", "TailwindCSS", "React Navigation"],
-    images: ["assets/img/projects/house-plant-hub/1.png", "assets/img/projects/house-plant-hub/2.png", "assets/img/projects/house-plant-hub/3.png", "assets/img/projects/house-plant-hub/4.png", "assets/img/projects/house-plant-hub/5.png", "assets/img/projects/house-plant-hub/6.png", "assets/img/projects/house-plant-hub/7.png", "assets/img/projects/house-plant-hub/8.png", "assets/img/projects/house-plant-hub/9.png", "assets/img/projects/house-plant-hub/10.png", "assets/img/projects/house-plant-hub/11.png", "assets/img/projects/house-plant-hub/12.png", "assets/img/projects/house-plant-hub/13.png", "assets/img/projects/house-plant-hub/14.png", "assets/img/projects/house-plant-hub/15.png"],
-    description: <div>
-        <p>
-            It is a house plant selling plateform where user's can easily purchase plants for their home. In this app I've only focused on creating and designing stunning app screen that shows the required details to users. I've added some basic pages like (Splash, Walkthrough, Welcome, Login, Register, Forgot Password, Verify OTP, Home, Categories, Category Detail, Wishlist, Orders, Product Detail, etc) screens. I've Learn a lot by creating this app.
-        </p>
-    </div>
-}
+            <p>
+                It is located in Rural area. It is located in MASAUDHA block of FAIZABAD in Uttar Pradesh.
+            </p>
+
+            <p>
+                There are total 11 teachers in Gayatri Inter College Daultapur, Daulatpur with 8 male teachers and 3 female teachers. 11 teachers are qualified with graduation and above and 10 teachers are with professional qualification.
+            </p>
+
+            <p>
+                The school consists of Grades from 9 to 12. The school is Co-educational and it doesn't have an attached pre-primary section. The school is Private in nature and is not using school building as a shift-school.
+            </p>
+        </div>
+    },
+    {
+        id: 14,
+        name: "VK construction and builders",
+        type: "Web",
+        featuredImage: "assets/img/projects/vkconstructionandbuilders/1.png",
+        created: "April 25, 2024",
+        link: "https://vkconstructionandbuilders.in/",
+        technologies: ["HTML5", "CSS3", "Javascript", "Jquery", "Bootstrap", "Material UI"],
+        images: ["assets/img/projects/vkconstructionandbuilders/1.png", "assets/img/projects/vkconstructionandbuilders/2.png", "assets/img/projects/vkconstructionandbuilders/3.png", "assets/img/projects/vkconstructionandbuilders/4.png"],
+        description: <div>
+            <p>
+                VK Construction & Builders was established in 2005 with a vision to excel in the civil engineering sector. Over the years, we have significantly expanded our operational scope and capacity, successfully managing projects with an annual throughput worth up to 27+ crores. Our core expertise lies in the design and construction of complex civil and structural engineering projects.
+            </p>
+        </div>
+    },
+    {
+        id: 15,
+        name: "Ecoism Technology PVt LTD.",
+        type: "Web",
+        featuredImage: "assets/img/projects/ecoism/1.png",
+        created: "February 25, 2023",
+        link: "https://ecoism.co.in/",
+        technologies: ["HTML5", "CSS3", "Javascript", "Jquery", "Bootstrap", "Material UI"],
+        images: ["assets/img/projects/ecoism/1.png", "assets/img/projects/ecoism/2.png", "assets/img/projects/eocism/3.png", "assets/img/projects/ecoism/4.png"],
+        description: <div>
+            <p>
+                It's stand for Electronics Company of Integrated System Management has been initiated as a solution provider of security, safety, automation, and eco-friendly environment.
+                Ecoism is a system integrator, leading solution provider, and innovative solutions consultant for all types of electronic security, safety, automation, and solar power solutions, with in-depth expertise in the design, engineering, procurement, installation, and maintenance of systems.
+            </p>
+            <p>
+                It has sound experience behind them in working with leading companies in the field of Electronic Security, Safety, Automation, Networking, and Solar Energy system. This experience has helped us to offer the perfect customized solutions to the need.
+            </p>
+        </div>
+    },
+]
 
 function Slider({ items }) {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -435,7 +480,7 @@ const Portfolio = () => {
     const [searchParams, setSearchParams] = useSearchParams();
     const [isProjectDetailOpen, setIsProjectDetailOpen] = useState(false);
     const [selectedProject, setSelectedProject] = useState(null);
-    const projectDetails = useMemo(() => projects.find((project) => project.id === selectedProject), [selectedProject]);
+    const projectDetails = useMemo(() => projects.find((project) => project.id === selectedProject), [projects,selectedProject]);
 
     useEffect(() => {
         const projects = allProjects.filter((project) => searchParams.get("type") ? (project.type === searchParams.get("type")) : true);
