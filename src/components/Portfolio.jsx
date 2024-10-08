@@ -73,6 +73,40 @@ const allProjects = [
         </div>
     },
     {
+        id: 16,
+        name: "Bizflowsync - An Efficient Business Management Platform",
+        type: "App",
+        featuredImage: "assets/img/projects/bizflowsync/1.png",
+        created: "Sep 19, 2024",
+        link: "https://bizflowsync.com/",
+        technologies: ["React Native", "MongoDB", "ExpressJs", "NodeJs", "Redis", "Socket.io", "TailwindCSS"],
+        images: ["assets/img/projects/bizflowsync/1.png", "assets/img/projects/bizflowsync/2.png", "assets/img/projects/bizflowsync/3.png", "assets/img/projects/bizflowsync/4.png", "assets/img/projects/bizflowsync/5.png", "assets/img/projects/bizflowsync/6.png"],
+        description: <div>
+            <p>
+                BizflowSync offers comprehensive student management, efficient fees tracking, real-time attendance monitoring, seamless class scheduling, automated notifications, and robust reporting tools for educational institutions.
+            </p>
+            <h5><strong>Key Features:</strong></h5>
+            <ol>
+                <li>
+                    <strong>Students Management:</strong> 
+                    It is a student management application that you can effortlessly manage student records, track performance, and streamline administrative tasks.
+                </li>
+                <li>
+                    <strong>Fees Management:</strong> 
+                    It includes features such as fee tracking, invoicing, payment reminders, and reporting to ensure smooth financial operations and transparency.
+                </li>
+                <li>
+                    <strong>Attendance Management:</strong> 
+                    It includes features such as check-in and check-out systems, automated attendance recording, real-time monitoring, and reporting functionalities.
+                </li>
+                <li>
+                    <strong>Business Management:</strong> 
+                    It is an ideal solution for educational institutions, gyms, libraries, and other businesses that need to manage multiple aspects of their operations efficiently.
+                </li>
+            </ol>
+        </div>
+    },
+    {
         id: 4,
         name: "Google Drive App",
         type: "Web",
