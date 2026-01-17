@@ -34,14 +34,8 @@ h6 {
 }
 
 #main {
-  margin-top: 50px;
-}
-
-@media (max-width: 992px) {
-  #main {
-    margin-top: 30px;
-  }
-}
+  padding-top: 50px;
+} 
 
 /*--------------------------------------------------------------
 # Preloader
@@ -1145,7 +1139,6 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
 }
 
 .contact .info i {
@@ -1191,7 +1184,6 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
 }
 
 .contact .php-email-form .form-group {

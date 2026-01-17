@@ -27,7 +27,7 @@ const Contact = () => {
     };
 
     return (
-        <main id="main">
+        <main id="main" className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-emerald-50">
             {/* ======= Contact Section =======  */}
             <section id="contact" className="contact">
                 <div className="container" data-aos="fade-up">
@@ -49,7 +49,6 @@ const Contact = () => {
                     </div>
 
                     <div className="row mt-5">
-
                         <div className="col-lg-4">
                             <div className="info">
                                 <div className="address">
@@ -71,7 +70,6 @@ const Contact = () => {
                                 </div>
 
                             </div>
-
                         </div>
 
                         <div className="col-lg-8 mt-5 mt-lg-0">

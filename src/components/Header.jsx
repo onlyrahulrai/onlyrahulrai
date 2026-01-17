@@ -1,71 +1,126 @@
-import React from 'react'
-import { useEffect } from 'react';
-import { useState } from 'react';
-import { useRef } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
+import { useRef } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const links = [
-    { pathname: "/", name: "Home" },
-    { pathname: "/about", name: "About" },
-    { pathname: "/resume", name: "Resume" },
-    { pathname: "/portfolio", name: "Portfolio" },
-    { pathname: "/contact", name: "Contact" }
-]
+  { pathname: "/", name: "Home" },
+  { pathname: "/about", name: "About" },
+  { pathname: "/resume", name: "Resume" },
+  { pathname: "/portfolio", name: "Portfolio" },
+  { pathname: "/contact", name: "Contact" },
+];
 
 const Header = () => {
-    const location = useLocation();
-    const navRef = useRef(null);
-    const [isOpen, setIsOpen] = useState(false)
+  const location = useLocation();
+  const navRef = useRef(null);
+  const [isOpen, setIsOpen] = useState(false);
 
-    const onOpenMenu = () => {
-        navRef.current.classList.add("navbar-mobile")
-        setIsOpen(true)
-    }
+  const onOpenMenu = () => {
+    setIsOpen(true);
+  };
 
-    const onCloseMenu = () => {
-        navRef.current.classList.remove("navbar-mobile")
-        setIsOpen(false)
-    }
+  const onCloseMenu = () => {
+    setIsOpen(false);
+  };
 
-    useEffect(() => {
-       onCloseMenu()
-    }, [location])
+  useEffect(() => {
+    onCloseMenu();
+  }, [location]);
 
-    return (
-        <header id="header" className="fixed-top">
-            <div className="container-fluid d-flex justify-content-between align-items-center">
+  return (
+    <header className="fixed top-4 left-0 right-0 z-50">
+      <div className="mx-auto max-w-7xl px-4">
+        <div
+          className="flex items-center justify-between
+                 rounded-full bg-white/90 backdrop-blur-md
+                 shadow-md px-6 py-2"
+        >
+          {/* Logo */}
+          <Link
+            to="/"
+            className="text-base font-semibold tracking-tight text-[#00947c]"
+            style={{ fontFamily: "cursive" }}
+          >
+            Rahul Rai
+          </Link>
 
-                <h1 className="logo me-auto me-lg-0" style={{ fontFamily: "cursive" }}><Link to="/">Rahul Rai</Link></h1>
+          {/* Navigation (INLINE – no box) */}
+          <nav className="hidden lg:flex items-center gap-6" ref={navRef}>
+            {links.map((link, key) => {
+              const isActive = link.pathname === location.pathname;
+              return (
+                <Link
+                  key={key}
+                  to={link.pathname}
+                  className={`text-sm font-medium transition
+                ${
+                  isActive
+                    ? "text-[#00947c]"
+                    : "text-slate-700 hover:text-slate-900"
+                }`}
+                >
+                  {link.name}
+                </Link>
+              );
+            })}
+          </nav>
 
-                {/* <a href="index.html" className="logo"><img src="assets/img/logo.png" alt="" className="img-fluid"></a> */}
+          {/* Right actions */}
+          <div className="flex items-center gap-3">
+            {/* Primary CTA */}
+            <a
+              href="/assets/documents/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center
+             rounded-full px-4 py-1.5 text-sm font-semibold
+             text-white bg-[#00947c]
+             hover:bg-[#007f6a] transition"
+            >
+              Resume
+            </a>
 
-                <nav id="navbar" ref={navRef} className="navbar order-last order-lg-0">
-                    <ul>
-                        {
-                            links.map((link, key) => (
-                                <li key={key}><Link to={link.pathname} className={`${(link.pathname === location.pathname) ? 'active' : ""}`}>{link.name}</Link></li>
-                            ))
-                        }
-                    </ul>
+            {/* Mobile toggle */}
+            <button
+              className="lg:hidden text-xl text-slate-700"
+              onClick={isOpen ? onCloseMenu : onOpenMenu}
+            >
+              <i className={`bi ${isOpen ? "bi-x" : "bi-list"}`} />
+            </button>
+          </div>
+        </div>
 
-                    <i 
-                        className={`bi mobile-nav-toggle ${isOpen ? "bi-x" : "bi-list"}`} 
-                        onClick={isOpen ? onCloseMenu : onOpenMenu}
-                    ></i>
-                </nav>
+        {/* Mobile menu (separate, clean) */}
+        {isOpen && (
+          <div className="lg:hidden mt-3 rounded-2xl bg-white shadow-md px-6 py-4">
+            <ul className="flex flex-col gap-4">
+              {links.map((link, key) => {
+                const isActive = link.pathname === location.pathname;
 
-                <div className="header-social-links">
-                    <Link className="twitter" to="https://twitter.com/onlyrahulrai" target='_blank' relative="route" ><i className="bi bi-twitter"></i></Link>
-                    <Link className="facebook" to="https://www.facebook.com/onlyrahulrai" target='_blank' relative="path" ><i className="bi bi-facebook"></i></Link>
-                    <Link className="instagram" to="https://www.instagram.com/onlyrahulrai" target='_blank' rel="noopener noreferrer" ><i className="bi bi-instagram"></i></Link>
-                    <Link className="linkedin" to="https://www.linkedin.com/in/onlyrahulrai" target='_blank' rel="noopener noreferrer" ><i className="bi bi-linkedin"></i></Link>
-                    <Link className="github" to="https://github.com/onlyrahulrai" target='_blank' rel="noopener noreferrer" ><i className="bi bi-github"></i></Link>
-                </div>
+                return (
+                  <li key={key}>
+                    <Link
+                      to={link.pathname}
+                      className={`block text-sm font-medium text-slate-700 ${
+                        isActive
+                          ? "text-[#00947c]"
+                          : "text-slate-700 hover:text-slate-900"
+                      }`}
+                      onClick={onCloseMenu}
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        )}
+      </div>
+    </header>
+  );
+};
 
-            </div>
-
-        </header >
-    )
-}
-
-export default Header
+export default Header;
