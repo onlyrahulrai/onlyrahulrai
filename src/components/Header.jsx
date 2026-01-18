@@ -29,6 +29,20 @@ const Header = () => {
     onCloseMenu();
   }, [location]);
 
+  /* -----------------------------
+     Crisp Chat Theme Color
+  ----------------------------- */
+  useEffect(() => {
+    const applyTheme = () => {
+      window.$crisp.push(["config", "color:theme", "rgb(3 145 122)"]);
+    };
+
+    if (window.$crisp) {
+      applyTheme();
+      window.$crisp.push(["on", "session:loaded", applyTheme]);
+    }
+  }, []);
+
   return (
     <header className="fixed top-4 left-0 right-0 z-50">
       <div className="mx-auto max-w-7xl px-4">
@@ -97,13 +111,13 @@ const Header = () => {
           <div className="lg:hidden mt-3 rounded-2xl bg-white shadow-md px-6 py-4">
             <ul className="flex flex-col gap-4">
               {links.map((link, key) => {
-                const isActive = link.pathname === location.pathname;
+                const isActive = (link.pathname === location.pathname);
 
                 return (
                   <li key={key}>
                     <Link
                       to={link.pathname}
-                      className={`block text-sm font-medium text-slate-700 ${
+                      className={`block text-sm font-medium ${
                         isActive
                           ? "text-[#00947c]"
                           : "text-slate-700 hover:text-slate-900"

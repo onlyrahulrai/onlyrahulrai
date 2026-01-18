@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Button } from "reactstrap";
 import { Github, Linkedin, Play, Sparkles } from "lucide-react";
 import useTypingText from "../hooks/useTypingText";
@@ -6,14 +5,6 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   const typedText = useTypingText("Web, Mobile & Cloud Solutions");
-  /* -----------------------------
-     Crisp Chat Theme Color
-  ----------------------------- */
-  useEffect(() => {
-    if (window.$crisp) {
-      window.$crisp.push(["config", "color:theme", "#00947c"]);
-    }
-  }, []);
 
   return (
     <>
@@ -24,7 +15,13 @@ export default function Home() {
         <div className="relative z-10 max-w-5xl px-6 text-center">
           {/* availability badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 rounded-full border border-slate-200 bg-white/80 backdrop-blur text-sm text-slate-600 shadow-sm mt-12">
-            <span className="h-2 w-2 rounded-full bg-[#00947c]" />
+            <span className="relative flex items-center justify-center">
+              {/* Outer Ring */}
+              <span className="absolute h-4 w-4 rounded-full border border-[#00947c] opacity-70"></span>
+
+              {/* Animated Dot */}
+              <span className="h-2 w-2 rounded-full bg-[#00947c] animate-breathe"></span>
+            </span>
             Available for opportunities
           </div>
 
