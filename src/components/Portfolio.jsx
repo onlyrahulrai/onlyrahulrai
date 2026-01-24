@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import {
   Carousel,
   CarouselControl,
@@ -43,7 +43,7 @@ const allProjects = [
       "Like and comment system for user engagement",
       "Real-time private messaging and notifications using Socket.IO",
       "Follower and connection management system",
-      "Audio and video calling using WebRTC", 
+      "Audio and video calling using WebRTC",
       "Real-time media streaming between users",
       "Responsive design optimized for mobile and desktop devices",
     ],
@@ -821,8 +821,7 @@ const allProjects = [
     created: "January 2025 – July 2025",
 
     /* Links */
-    link:
-      "https://play.google.com/store/apps/details?id=com.onlyrahulrai.preplus",
+    link: "https://play.google.com/store/apps/details?id=com.onlyrahulrai.preplus",
     website: "https://preplus.in/",
 
     technologies: [
@@ -1119,6 +1118,7 @@ function Slider({ items }) {
 const Portfolio = () => {
   const [projects, setProjects] = useState(allProjects);
   const [searchParams, setSearchParams] = useSearchParams();
+  const navigate = useNavigate();
   const [isProjectDetailOpen, setIsProjectDetailOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
   const projectDetails = useMemo(
@@ -1127,28 +1127,41 @@ const Portfolio = () => {
   );
 
   useEffect(() => {
-    const projects = allProjects.filter((project) =>
+    const filteredProjects = allProjects.filter((project) =>
       searchParams.get("type")
         ? project.type === searchParams.get("type")
         : true,
     );
 
-    setProjects(projects);
-  }, [searchParams]);
+    const projectId = searchParams.get("projectId");
 
-  const onChangeProjectType = (type = "") => {
-    if (type.trim().length > 0) {
-      searchParams.set("type", type);
+    if (projectId) {
+      setSelectedProject(parseInt(projectId, 10));
+      setIsProjectDetailOpen(true);
     } else {
-      searchParams.delete("type");
+      setIsProjectDetailOpen(false);
     }
 
-    setSearchParams(searchParams);
+    setProjects(filteredProjects);
+  }, [searchParams.toString()]);
+
+  const onChangeProjectType = (type = "") => {
+    const params = new URLSearchParams(searchParams);
+
+    type?.trim() ? params.set("type", type) : params.delete("type");
+
+    params.delete("projectId");
+
+    setSearchParams(params);
   };
 
-  const onToggleProjectDetail = (id) => {
-    setSelectedProject(id);
-    setIsProjectDetailOpen((prevState) => !prevState);
+  const onToggleProjectDetail = () => {
+    const params = new URLSearchParams(searchParams);
+    params.delete("projectId");
+
+    setSearchParams(params);
+    setSelectedProject(null);
+    setIsProjectDetailOpen(false);
   };
 
   return (
@@ -1201,10 +1214,10 @@ const Portfolio = () => {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            {projects.map((project, key) => (
+            {projects.map((project) => (
               <div
                 className="portfolio-item filter-app shadow rounded"
-                key={key}
+                key={project.id}
               >
                 <div className="portfolio-wrap d-flex justify-content-center">
                   <img
@@ -1220,7 +1233,9 @@ const Portfolio = () => {
                       <i
                         className="bi bi-eye"
                         style={{ cursor: "pointer" }}
-                        onClick={() => onToggleProjectDetail(project.id)}
+                        onClick={() =>
+                          navigate(`/portfolio?projectId=${project.id}`)
+                        }
                       ></i>
                     </div>
                   </div>
@@ -1230,85 +1245,13 @@ const Portfolio = () => {
           </div>
 
           {isProjectDetailOpen ? (
-            // <Modal
-            //   isOpen={isProjectDetailOpen}
-            //   toggle={onToggleProjectDetail}
-            //   size="xl"
-            //   centered
-            //   fade
-            //   backdrop="static"
-            //   keyboard={false}
-            // >
-            //   <ModalBody>
-            //     <section id="portfolio-details" className="portfolio-details">
-            //       <div className="container">
-            //         <div className="row gy-4 justify-content-center">
-            //           <div className="col-lg-12 d-flex justify-content-end">
-            //             <i
-            //               className="bi bi-x"
-            //               style={{ cursor: "pointer", fontSize: "28px" }}
-            //               onClick={onToggleProjectDetail}
-            //             ></i>
-            //           </div>
-            //           <div className="col-lg-12">
-            //             <Slider items={projectDetails.images} />
-            //           </div>
-
-            //           <div className="col-lg-9">
-            //             <div className="portfolio-description">
-            //               <h2>{projectDetails.name}</h2>
-
-            //               {projectDetails.description}
-
-            //               <div>
-            //                 {projectDetails.technologies.length > 0 ? (
-            //                   <div className="my-2">
-            //                     <strong>Technology Used - </strong>
-
-            //                     {projectDetails.technologies.map(
-            //                       (tech, key) => (
-            //                         <span key={key}>
-            //                           {tech}
-            //                           {projectDetails.technologies.length !==
-            //                           key + 1
-            //                             ? ","
-            //                             : null}{" "}
-            //                         </span>
-            //                       ),
-            //                     )}
-            //                   </div>
-            //                 ) : null}
-
-            //                 {projectDetails.link ? (
-            //                   <div>
-            //                     <strong>View Online - </strong>
-            //                     <Link to={projectDetails.link} target="_blank">
-            //                       {projectDetails.link}
-            //                     </Link>
-            //                   </div>
-            //                 ) : null}
-
-            //                 {projectDetails.created ? (
-            //                   <div>
-            //                     <strong>Date Created - </strong>
-            //                     <span>{projectDetails.created}</span>
-            //                   </div>
-            //                 ) : null}
-            //               </div>
-            //             </div>
-            //           </div>
-            //         </div>
-            //       </div>
-            //     </section>
-            //   </ModalBody>
-            // </Modal>
             <Modal
               isOpen={isProjectDetailOpen}
               toggle={onToggleProjectDetail}
               size="xl"
               centered
               fade
-              backdrop="static"
+              backdrop
               keyboard={false}
             >
               <ModalBody className="p-4">
@@ -1335,29 +1278,31 @@ const Portfolio = () => {
                       <div className="col-lg-9">
                         <div className="portfolio-description">
                           {/* Title */}
-                          <h2 className="mb-2">{projectDetails.name}</h2>
+                          <h2 className="mb-2">{projectDetails?.name}</h2>
 
                           {/* Meta info */}
                           <div className="mb-3 text-muted small">
                             {projectDetails.category && (
                               <span className="me-3">
-                                <strong>Type:</strong> {projectDetails.category}
+                                <strong>Type:</strong>{" "}
+                                {projectDetails?.category}
                               </span>
                             )}
                             {projectDetails.status && (
                               <span className="me-3">
-                                <strong>Status:</strong> {projectDetails.status}
+                                <strong>Status:</strong>{" "}
+                                {projectDetails?.status}
                               </span>
                             )}
                             {projectDetails.role && (
                               <span>
-                                <strong>Role:</strong> {projectDetails.role}
+                                <strong>Role:</strong> {projectDetails?.role}
                               </span>
                             )}
                           </div>
 
                           {/* Description */}
-                          {projectDetails.description}
+                          {projectDetails?.description}
 
                           {/* Features */}
                           {projectDetails.features?.length > 0 && (
