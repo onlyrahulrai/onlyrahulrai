@@ -1143,7 +1143,7 @@ const Portfolio = () => {
     }
 
     setProjects(filteredProjects);
-  }, [searchParams.toString()]);
+  }, [searchParams]);
 
   const onChangeProjectType = (type = "") => {
     const params = new URLSearchParams(searchParams);
