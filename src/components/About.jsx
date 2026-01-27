@@ -209,7 +209,7 @@ const About = () => {
           </div>
 
           <div className="row mt-5">
-            <div className="col-lg-4">
+            <div className="col-lg-3">
               <img
                 src="assets/img/pic.jpg"
                 className="img-fluid"
@@ -217,88 +217,9 @@ const About = () => {
                 style={{ borderRadius: "56px 8px 56px 8px" }}
               />
             </div>
-            {/* <div className="col-lg-8 pt-4 content">
-              <h3>Software Engineer</h3>
-
-              <div className="pt-1">
-                <p>Hi there! My name is Rahul Rai!</p>
-
-                <p>
-                  I'm a student and work as a Fullstack developer in Shepple
-                  technologies.
-                </p>
-
-                <p>
-                  I've been coding for over 5 years now. I love the rush of
-                  solving problems, finding creative solutions, and truly
-                  positively impacting people’s lives while doing something that
-                  I love.
-                </p>
-
-                <p>
-                  I thrive on creating innovative and efficient solutions to
-                  complex problems. With a keen eye for detail and a deep
-                  understanding of programming languages such as Python, and
-                  JavaScript, I enjoy crafting clean, maintainable code that
-                  delivers exceptional user experiences.
-                </p>
-
-                <p>
-                  My expertise lies in developing web applications and mobile
-                  applications, utilizing frameworks like Django and React to
-                  build robust and scalable solutions. I am skilled in database
-                  design and integration, ensuring seamless data management and
-                  retrieval. I am also experienced in implementing RESTful APIs,
-                  allowing for smooth communication between front-end and
-                  back-end systems.
-                </p>
-              </div>
-
-              <div className="row mt-2">
-                <div className="col-lg-6">
-                  <ul>
-                    <li>
-                      <i className="bi bi-rounded-right"></i>{" "}
-                      <strong>Birthday:</strong> 17 April 2002
-                    </li>
-                    <li>
-                      <i className="bi bi-rounded-right"></i>{" "}
-                      <strong>Website:</strong> www.onlyrahulrai.in
-                    </li>
-                    <li>
-                      <i className="bi bi-rounded-right"></i>{" "}
-                      <strong>Phone:</strong> +919648772088
-                    </li>
-                    <li>
-                      <i className="bi bi-rounded-right"></i>{" "}
-                      <strong>City:</strong> Ayodhya
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-lg-6">
-                  <ul>
-                    <li>
-                      <i className="bi bi-rounded-right"></i>{" "}
-                      <strong>Age:</strong> 21
-                    </li>
-                    <li>
-                      <i className="bi bi-rounded-right"></i>{" "}
-                      <strong>Degree:</strong> BTech
-                    </li>
-                    <li>
-                      <i className="bi bi-rounded-right"></i>{" "}
-                      <strong>Email:</strong> rrai06125@gmail.com
-                    </li>
-                    <li>
-                      <i className="bi bi-rounded-right"></i>{" "}
-                      <strong>Freelance:</strong> Available
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div> */}
-            <div className="col-lg-8 pt-4 content">
-              <h3>Software Engineer</h3>
+            
+            <div className="col-lg-9 pt-0 content">
+              <h3 style={{marginTop:"6px"}}>Software Engineer</h3>
 
               <div className="pt-1">
                 <p>
