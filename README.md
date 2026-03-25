@@ -1,6 +1,5 @@
 <h1 align="center">Hi 👋, I'm Rahul Rai</h1>
 
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=onlyrahulrai&label=Profile%20views&color=0e75b6&style=flat" alt="rahul6975" /> </p>
 
 <img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/odmqozPudZor6yF3VK/giphy.gif">
@@ -21,12 +20,9 @@
 
 <hr />
 
-
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=onlyrahulrai&label=Profile%20views&color=0e75b6&style=flat" alt="onlyrahulrai" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=onlyrahulrai" alt="onlyrahulrai" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/onlyrahulrai" target="blank"><img src="https://img.shields.io/twitter/follow/onlyrahulrai?logo=twitter&style=for-the-badge" alt="onlyrahulrai" /></a> </p>
+<p align="left"> <a href="https://x.com/onlyrahulrai" target="blank"><img src="https://img.shields.io/twitter/follow/onlyrahulrai?logo=twitter&style=for-the-badge" alt="onlyrahulrai" /></a> </p>
 
 ## 👨🏻‍💻 Coding Profiles
 
@@ -82,13 +78,13 @@
 [![Rahul Rai github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=onlyrahulrai&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/onlyrahulrai/github-readme-activity-graph)
 
 ## Connect with Me
+
 [![Email Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rrai06125@gmail.com)](mailto:rrai06125@gmail.com)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/onlyrahulrai/)](https://www.linkedin.com/in/onlyrahulrai/)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/onlyrahulrai)
 [![Telegram](https://img.shields.io/badge/-Telegram-blue?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/onlyrahulrai)
 [![Discord](https://img.shields.io/badge/-Discord-7289DA?style=flat-square&logo=discord&logoColor=white)](https://discordapp.com/users/745686149359599707)
 [![Instagram Badge](https://img.shields.io/badge/-Instagram-purple?style=flat-square&logo=instagram&logoColor=white&link=https://instagram.com/onlyrahulrai/)](https://instagram.com/onlyrahulrai)
-
 
 #### &nbsp;&nbsp; Thank you for visiting my profile.
 
