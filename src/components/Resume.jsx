@@ -1,5 +1,67 @@
 import React from "react";
 
+const educations = [
+  {
+    title: "Bachelor of Technology (B.Tech) – Computer Science",
+    duration: "July 2022 – June 2025",
+    institute:
+      "Himalayan Institute of Technology & Management, Lucknow, Uttar Pradesh",
+    description:
+      "During my B.Tech, I focused on core subjects like data structures, databases, and software development. Along with academics, I spent most of my time building real-world web and mobile applications, which helped me gain practical experience beyond the classroom.",
+  },
+  {
+    title: "Diploma – Information Technology",
+    duration: "July 2017 – June 2020",
+    institute:
+      "Chhatrapati Shahu Ji Maharaj Government Polytechnic College, Ambedkar Nagar, Uttar Pradesh",
+    description:
+      "This is where I started getting serious about programming. I learned the basics of coding, databases, and networking, and worked on small projects that gave me a clear understanding of how software systems actually work.",
+  },
+  {
+    title: "Intermediate (12th Standard)",
+    duration: "April 2022 – March 2023",
+    institute:
+      "KD Public Inter College, Ayodhya, Uttar Pradesh",
+    description:
+      "Completed my higher secondary education with a focus on building a strong academic base. This phase helped me develop discipline and problem-solving skills before moving into the technical field.",
+  },
+  {
+    title: "High School (10th Standard)",
+    duration: "April 2016 – March 2017",
+    institute:
+      "Dr. Ambedkar Inter College, Ayodhya, Uttar Pradesh",
+    description:
+      "Built my foundational knowledge across core subjects and developed a consistent learning mindset, which later helped me transition smoothly into technical education.",
+  },
+];
+
+const experiences = [
+  {
+    role: "Software Developer (Full Stack)",
+    duration: "June 2021 – September 2025",
+    company: "Shepple Technologies Pvt. Ltd, New Delhi",
+    points: [
+      "Worked on building web applications using React and Django, handling both frontend and backend work",
+      "Built mobile apps using React Native for Android and iOS and helped publish them on Play Store and App Store",
+      "Improved API performance by around 40% by adding Redis caching and background jobs with Celery",
+      "Created REST APIs and connected them with frontend features to keep everything working smoothly",
+      "Handled deployments and basic server setup on AWS and DigitalOcean",
+      "Implemented login and authentication using JWT and OAuth",
+    ],
+  },
+  {
+    role: "Full-Stack Engineer",
+    duration: "December 2020 – May 2021",
+    company: "Infoventive Technologies, Noida",
+    points: [
+      "Built REST APIs using Django REST Framework for different features in the application",
+      "Used Redux for managing frontend state and keeping the code organized",
+      "Added authentication using JWT and OAuth for secure access",
+      "Worked on improving UI and fixing performance issues in the app",
+    ],
+  },
+];
+
 const Resume = () => {
   return (
     <main
@@ -45,7 +107,7 @@ const Resume = () => {
                       <br />
                       Uttar Pradesh
                     </li>
-                    <li>+91 9648772088</li>
+                    <li>+917839603171</li>
                     <li>rrai06125@gmail.com</li>
                   </ul>
                 </div>
@@ -53,147 +115,39 @@ const Resume = () => {
 
               <h3 className="resume-title">Education</h3>
 
-              <div className="resume-item">
-                <h4>Bachelor of Technology (B.Tech) – Computer Science</h4>
-                <h5>July 2022 – June 2025</h5>
-                <h6 className="font-semibold">
-                  <em>
-                    Himalayan Institute of Technology &amp; Management, Lucknow,
-                    Uttar Pradesh
-                  </em>
-                </h6>
-                <div className="py-1" />
-                <p>
-                  Completed B.Tech in Computer Science with strong foundations
-                  in programming, data structures, databases, and software
-                  development. Actively worked on real-world projects involving
-                  web and mobile application development.
-                </p>
-              </div>
-
-              <div className="resume-item">
-                <h4>Diploma – Information Technology</h4>
-                <h5>July 2017 – June 2020</h5>
-                <h6 className="font-semibold">
-                  <em>
-                    Chhatrapati Shahu Ji Maharaj Government Polytechnic College,
-                    Ambedkar Nagar, Uttar Pradesh
-                  </em>
-                </h6>
-                <div className="py-1" />
-                <p>
-                  Completed a government-recognized diploma focusing on
-                  programming, computer networks, databases, and practical IT
-                  system development, providing a strong technical foundation.
-                </p>
-              </div>
-
-              <div className="resume-item">
-                <h4>Intermediate (12th Standard)</h4>
-                <h5>April 2022 – March 2023</h5>
-                <h6 className="font-semibold">
-                  <em>
-                    KD Public Inter College, Tihura, Ayodhya – 224001, Uttar
-                    Pradesh
-                  </em>
-                </h6>
-                <div className="py-1" />
-                <p>
-                  Completed higher secondary education with a focus on academic
-                  fundamentals, discipline, and analytical thinking, supporting
-                  continued studies in computer science.
-                </p>
-              </div>
-
-              <div className="resume-item">
-                <h4>High School (10th Standard)</h4>
-                <h5>April 2016 – March 2017</h5>
-                <h6 className="font-semibold">
-                  <em>
-                    Dr. Ambedkar Balika Inter College, Chandpur Harvansh
-                    Dabhasemar, Ayodhya – 224001, Uttar Pradesh
-                  </em>
-                </h6>
-                <div className="py-1" />
-                <p>
-                  Completed secondary education with emphasis on core subjects
-                  and foundational learning, building discipline and
-                  problem-solving skills at an early stage.
-                </p>
-              </div>
+              {
+                educations.map((education, index) => (
+                  <div className="resume-item" key={index}>
+                    <h4>{education.title}</h4>
+                    <h5>{education.duration}</h5>
+                    <h6 className="font-semibold">
+                      <em>{education.institute}</em>
+                    </h6>
+                    <div className="py-1" />
+                    <p>{education.description}</p>
+                  </div>
+                ))
+              }
             </div>
             <div className="col-lg-6">
               <h3 className="resume-title">Professional Experience</h3>
 
-              <div className="resume-item">
-                <h4>Software Developer (Full Stack)</h4>
-                <h5>June 2021 – Present</h5>
-                <h6 className="font-semibold">
-                  <em>Shepple Technologies Pvt. Ltd, New Delhi</em>
-                </h6>
-                <ul style={{ listStyle: "disc", paddingLeft: "20px" }}>
-                  <li>
-                    Developed and maintained high-performance web applications
-                    using React.js and Django, improving scalability and user
-                    experience.
-                  </li>
-                  <li>
-                    Built and deployed cross-platform mobile applications using
-                    React Native for Android and iOS.
-                  </li>
-                  <li>
-                    Designed and optimized MySQL databases, ensuring data
-                    integrity and efficient query performance.
-                  </li>
-                  <li>
-                    Integrated Redis caching and Celery background workers,
-                    reducing API response times by nearly 40%.
-                  </li>
-                  <li>
-                    Managed server deployment and monitoring on AWS and
-                    DigitalOcean, including NGINX configuration and security
-                    hardening.
-                  </li>
-                  <li>
-                    Successfully published production applications on the Google
-                    Play Store and Apple App Store.
-                  </li>
-                  <li>
-                    Collaborated closely with cross-functional teams to deliver
-                    scalable and reliable software solutions.
-                  </li>
-                </ul>
-              </div>
-
-              <div className="resume-item">
-                <h4>Full Stack Engineer</h4>
-                <h5>December 2020 – May 2021</h5>
-                <h6 className="font-semibold">
-                  <em>Infoventive Technologies, Noida, Uttar Pradesh</em>
-                </h6>
-                <ul style={{ listStyle: "disc", paddingLeft: "20px" }}>
-                  <li>
-                    Developed RESTful APIs using Django REST Framework to handle
-                    complex business logic.
-                  </li>
-                  <li>
-                    Implemented Redux-based state management to improve frontend
-                    performance and maintainability.
-                  </li>
-                  <li>
-                    Integrated secure authentication mechanisms using OAuth and
-                    JWT.
-                  </li>
-                  <li>
-                    Conducted code reviews and followed best practices to ensure
-                    code quality and scalability.
-                  </li>
-                  <li>
-                    Improved mobile application UI/UX and resolved performance
-                    bottlenecks.
-                  </li>
-                </ul>
-              </div>
+              {
+                experiences.map((experience, index) => (
+                  <div className="resume-item" key={index}>
+                    <h4>{experience.role}</h4>
+                    <h5>{experience.duration}</h5>
+                    <h6 className="font-semibold">
+                      <em>{experience.company}</em>
+                    </h6>
+                    <ul style={{ listStyle: "disc", paddingLeft: "20px" }}>
+                      {experience.points.map((point, idx) => (
+                        <li key={idx}>{point}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))
+              }
             </div>
           </div>
         </div>

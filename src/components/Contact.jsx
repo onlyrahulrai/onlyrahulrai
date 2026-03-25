@@ -41,7 +41,7 @@ const Contact = () => {
                     <div>
                         <iframe
                             style={{ border: "0", width: "100%", height: "270px" }}
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7126.464415842383!2d82.16439495!3d26.73696505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399a08f118352b63%3A0x792af8b19e3a1ef5!2sChandpur%20Harbanshpur%2C%20Uttar%20Pradesh%20224133!5e0!3m2!1sen!2sin!4v1697009645701!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28443.653810567568!2d80.88385820388795!3d26.984098436492527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399951482d5a83d1%3A0x8d23949b1e033386!2sBakshi%20Ka%20Talab%2C%20Bargadi%20Magath%2C%20Uttar%20Pradesh%20226201!5e0!3m2!1sen!2sin!4v1774433981904!5m2!1sen!2sin"
                             frameBorder="0"
                             allowFullScreen
                             title='Contact-Map'
@@ -54,7 +54,7 @@ const Contact = () => {
                                 <div className="address">
                                     <i className="bi bi-geo-alt"></i>
                                     <h4>Location:</h4>
-                                    <p>Chandpur Harvansh Dabhasemar, <br /> Ayodhya - 224001, <br /> Uttar Pradesh </p>
+                                    <p>Bakshi Ka Talab, <br /> Lucknow - 226201, <br /> Uttar Pradesh </p>
                                 </div>
 
                                 <div className="email">
@@ -66,7 +66,7 @@ const Contact = () => {
                                 <div className="phone">
                                     <i className="bi bi-phone"></i>
                                     <h4>Call:</h4>
-                                    <p>+919648772088</p>
+                                    <p>+917839603171</p>
                                 </div>
 
                             </div>
