@@ -270,20 +270,20 @@ const About = () => {
                       <i className="bi bi-rounded-right"></i>{" "}
                       <strong>Website:</strong>{" "}
                       <a
-                        href="https://www.onlyrahulrai.in"
+                        href="https://www.rahulrai.vercel.app"
                         target="_blank"
                         rel="noreferrer"
                       >
-                        www.onlyrahulrai.in
+                        www.rahulrai.vercel.app
                       </a>
                     </li>
                     <li>
                       <i className="bi bi-rounded-right"></i>{" "}
-                      <strong>Phone:</strong> +91 9648772088
+                      <strong>Phone:</strong> +917839603171
                     </li>
                     <li>
                       <i className="bi bi-rounded-right"></i>{" "}
-                      <strong>City:</strong> Ayodhya
+                      <strong>City:</strong> Lucknow, India
                     </li>
                   </ul>
                 </div>
