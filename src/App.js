@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { About, Contact, Footer, Header, Home, Portfolio, Resume } from "./components";
 import { ToastContainer } from 'react-toastify';
+import { About, Contact, Footer, Header, Home, Portfolio, Resume } from "./components";
 import 'react-toastify/dist/ReactToastify.css';
 import { Crisp } from "crisp-sdk-web";
 import { useEffect, useMemo, useState } from "react";
