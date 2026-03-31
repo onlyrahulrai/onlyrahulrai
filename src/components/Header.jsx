@@ -85,7 +85,7 @@ const Header = () => {
           <div className="flex items-center gap-3">
             {/* Primary CTA */}
             <a
-              href="/assets/documents/rahul-rai-Resume.pdf"
+              href="/assets/documents/rahul-rai-resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center
